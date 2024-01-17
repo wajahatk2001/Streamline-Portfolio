@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:  rgb(227, 227, 255);
+}
+
+.navbar-brand {
+    font-weight: 800;
+}
+.navbar-nav a {
+    font-size: 22px;
+    font-weight: 500;
+}
+.Home{
+    background: #F8EDFF;
+}
+.home-text {
+    color: #fff;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.image-container {
+    max-width: 100%;
+    overflow: hidden; 
+    transform: rotate(5);
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+
+
+    50% {
+        transform: translateX(50px);
+    }
+}
+
+.About {
+    background-color: rgb(191, 207, 231);
+}
+.about-heading {
+    margin-bottom: 20px; 
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .about-heading {
+        text-align: center; 
+    }
+}
+
+.about-heading h1 {
+    border: 5px solid rgba(208, 231, 210);
+    border-radius: 30px;
+    background-color: rgba(208, 231, 210);
+    color: rgba(82, 120, 83);
+    text-align: center;
+    padding: 10px; 
+    margin: 0; 
+    max-width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-para {
+    font-size: 25px;
+    color: rgba(82, 120, 83);
+}
+
+.services {
+    background-color: rgb(42, 44, 59);
+}
+
+.service-text .service-heading {
+    border: 5px solid rgb(26, 43, 59);
+    border-radius: 30px;
+    background-color: rgb(26, 43, 59);
+    color: rgb(43, 163, 233);
+    text-align: center;
+    padding: 10px; 
+    margin: 0; 
+    max-width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-md-12 {
+    text-align: center;
+}
+
+.service-text {
+    margin-bottom: 20px; 
+}
+
+.service-img {
+    display: inline-block; 
+    margin-top: -1%;
+    margin-bottom: 0%;
+    width: 40rem;
+    height: 40rem;
+    max-width: 100%;
+    max-height: 50%;
+}
+.carousel{
+   margin: auto;
+   width: 90rem;
+   height: 80rem;
+   max-width: 100%;
+   max-height: 100%;
+   align-content: center;
+}
+.whatwedid{
+    margin-top: 1rem;
+    font-weight: 400;
+    text-align: center;
+     color: grey;
+     opacity: .5;
+
+}
+.portfolio{
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    color: purple;
+}
+.workwithus{
+    margin-top: 1rem;
+    font-weight: 400;
+    text-align: center;
+     color: grey;
+     opacity: .5;
+}
+.hireus{
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    color: purple;
+}
+
+.service-text h1 {
+    color: rgb(129, 143, 180);
+}
+
+.service-text p {
+    color: rgb(182, 187, 196);
+    font-size: 25px;
+    font-family: "Noto Sans Tirhuta", sans-serif;
+    text-align: justify;
+}
+.col p{
+       font-weight: 600;
+       font-size: 20px;
+       margin: 0%;
+}
+.col a{
+    font-size: 30px;
+}
